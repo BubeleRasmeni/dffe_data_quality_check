@@ -75,7 +75,7 @@ if st.session_state.uploaded_file:
         # Display data in expanders with error handling
         try:
             with st.expander("Uploaded Data", expanded=True):
-                st.dataframe(st.session_state.df.head(10))
+                st.dataframe(st.session_state.df.head(6))
         except Exception as e:
             st.error(f"An error occurred while displaying the data: {e}")
 
