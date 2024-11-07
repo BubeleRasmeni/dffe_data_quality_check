@@ -216,7 +216,7 @@ else:
     )
     st.markdown(
         """
-        1. **Review Standards**: Check out the **General Ocean Data Standards** and **Column Naming** recommendations below.
+        1. **Review Standards**: Check out the **General Data formating Standards** and **Column Naming** recommendations below.
         """
     )
 
