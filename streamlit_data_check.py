@@ -50,7 +50,7 @@ else:
 
 # Separator and encoding options in the sidebar
 st.session_state.separator = st.sidebar.selectbox(
-    "Select CSV Separator", [",", ";", "|", "\t"], index=0
+    "Select CSV Separator", [";", ",", "|", "\t"], index=0
 )
 st.session_state.encoding = st.sidebar.selectbox(
     "Select File Encoding", ["utf-8", "ISO-8859-1", "latin1", "cp1252"], index=0
