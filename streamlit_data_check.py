@@ -68,7 +68,9 @@ if st.session_state.uploaded_file:
         st.session_state.encoding,
     )
     st.session_state.df = df if df is not None else st.session_state.df
-
+    st.markdown(
+        '<div class="subheader">Uploaded Data</div>', unsafe_allow_html=True
+    )
     if load_error:
         st.error(load_error)
     else:
