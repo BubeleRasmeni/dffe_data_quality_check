@@ -26,5 +26,5 @@ This is a Streamlit-based web application designed for data quality reporting, s
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/data-quality-reporting-dashboard.git
+   git clone https://github.com/BubeleRasmeni/dffe_data_quality_check.git
    ```
