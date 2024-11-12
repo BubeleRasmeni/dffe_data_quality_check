@@ -218,12 +218,12 @@ else:
     )
     st.markdown(
         """
-        1. **Review Standards**: Check out the **General Data formating Recomendations** and **Column Naming** recommendations below.
+        1. **Review Standards**: Check out the **General Data formating Recommendations** and **Column Naming** recommendations below.
         """
     )
 
     # Display standards in expander
-    with st.expander("**_📊 General Data formating Recomendations_**"):
+    with st.expander("**_📊 General Data formating Recommendations_**"):
         st.write(
             """
         Best Practices for Column Naming and data formats  
